@@ -1,0 +1,302 @@
+body {
+	margin: 0;
+	overflow-x: hidden;
+}
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.header {
+	background-color: #e43b7c;
+	background-image: linear-gradient(-31.0deg, #378fd9 -3%, #4ebefe 103%);
+	padding-top: 62px;
+	color: #ffffff;
+
+}
+
+.header-wrapper {
+	display: flex;
+	align-items: center;
+}
+
+.offer {
+	margin-top: 147px;
+	width: 555px;
+	margin-left: 40px;
+}
+.offer-title {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 37px;
+	line-height: 49px;
+	font-weight: 700;
+	letter-spacing: 0.02em;
+	color: #ffffff;
+	margin-bottom: 47px;
+	
+}
+
+.offer-title span {
+	font-size: 59px;
+	line-height: 73px;
+	
+}
+.offer-text {
+	font-family: 'Open Sans';
+	font-size: 16px;
+	line-height: 27px;
+	font-weight: 400;
+	letter-spacing: 0.02em;
+	color: #ffffff;
+	margin-bottom: 44px;
+}
+.btn {
+	display: block;
+	background-color: #ffd429;
+	width: 222px;
+	padding: 20px 0;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	line-height: 25px;
+	font-weight: 900;
+	letter-spacing: 0.02em;
+	margin-bottom: 214px;
+	
+}
+.btn:hover {
+	background-color: #f1c30b;
+}
+a {
+	text-decoration: none;
+	color: #2e2a1b;
+}
+.header-image {
+	margin: 10px 0px 73px 35px;
+}
+
+.awaits-title {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 30px;
+	line-height: 25px;
+	font-weight: 700;
+	letter-spacing: 0.02em;
+	color: #201b2d;
+	text-align: center;
+	margin-top: 110px;
+}
+
+.awaits-wrapper {
+	display: flex;
+	margin-top: 73px;
+	justify-content: space-evenly;
+	margin-bottom: 120px;
+}
+.awaits-content {
+	max-width: 289px;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	
+}
+.awaits-icon {
+}
+.awaits-subtitle {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 19px;
+	line-height: 25px;
+	font-weight: 700;
+	letter-spacing: 0.02em;
+	color: #201b2d;
+	margin: 31px 0px 17px 0px;
+	
+}
+.awaits-text {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	line-height: 25px;
+	font-weight: 400;
+	letter-spacing: 0.02em;
+	color: #201b2d;
+	
+}
+
+.form {
+	padding-top: 105px;
+	background-color: #ecf3f8;
+	
+}
+.form-title {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 30px;
+	line-height: 25px;
+	font-weight: 700;
+	letter-spacing: 0.02em;
+	color: #201b2d;
+	text-align: center;
+	margin-bottom: 56px;
+}
+
+form {
+	max-width: 340px;
+	margin: 0 auto;
+}
+
+.input {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	opacity: 0.54;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	line-height: 25px;
+	font-weight: 400;
+	letter-spacing: 0.02em;
+	color: #201b2d;
+	height: 49px;
+	margin: 0px 0px 14px 0px;
+	
+}
+
+.button {
+	width: 344px;
+	height: 56px;
+	background-color: #ffd429;
+	margin-bottom: 106px;
+	border: none;
+	font-family:'Montserrat', sans-serif;
+	font-size: 15px;
+	line-height: 25px;
+	font-weight: 900;
+	letter-spacing: 0.02em;
+	color: #2e2a1b;
+}
+.button:hover {
+	background-color: #f1c30b;
+} 
+
+.footer {
+	padding-top: 63px;
+	padding-bottom: 66px;
+	background-color: #164d7a;
+	text-align: center;
+}
+.footer-text {
+	font-family: 'Open Sans';
+	font-size: 14px;
+	line-height: 25px;
+	font-weight: 400;
+	letter-spacing: 0.02em;
+	color: #ffffff;
+}
+
+.red {
+	color: rgb(43, 40, 40);
+}
+
+.animated {
+	opacity: 0;
+}
+.logo {
+	opacity: 1;
+	margin-left: 40px;
+}
+
+
+
+
+/*Responsive*/
+
+/* 992px - 1200px */
+@media (max-width: 1200px) {
+	.container {
+		width: 960px;
+	}
+	.logo {
+		margin-left: 0;
+	}
+	.offer {
+		margin-left: 0;
+	}
+}
+
+/* 768px - 992px */
+@media (max-width: 992px) {
+	.container {
+		width: 720px;
+	}
+	.header-wrapper {
+		flex-direction: column;
+	}
+	.offer {
+		width: 100%;
+	}
+	.offer-text {
+		width: auto;
+	}
+	.btn {
+		margin-bottom: 0;
+		
+		
+	}
+	.header-image {
+		display: block;
+		width: 641px;
+		margin: 73px auto;
+	}
+	a {
+		margin: auto 70%;
+	}
+}
+
+/* 576px - 768px */
+@media (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
+
+	.header-image {
+		width: 100%;
+	}
+	
+	.image-header {
+		width: 100%;
+	}
+
+	a {
+		margin: auto;
+	}
+	.awaits-wrapper {
+		flex-direction: column;
+		text-align: center;
+		align-items: center;
+		margin: 45px 0px 30px 0px
+	}
+
+}
+
+/* 320px - 576px */
+@media (max-width: 576px) {
+	.container {
+		width: 90%;
+	}
+	
+	.button {
+		width: 100%;
+	}
+	.footer {
+		padding: 35px 0px 35px 0px;
+	}
+	.footer-text {
+		font-size: 10px;
+	}
+	
+}
